@@ -47,8 +47,11 @@ switch (true) {
 I believe that else-if/else statement are easier to read and write. Also it ensures that there is a condition before it defaults. */
 
 //for loop
-for (let i = 1; i <= 100; i++)
+for (let i = 1; i <= 100; i++)//counts 1-100
 {
-    if (i %)
-    console.log(i);
+    if (i % 2)//modulo looks for any remainders after dividing by 2
+    {
+        console.log("!");//outputs odd numbers as "!"
+    } else
+    console.log(i);//outputs even numbers
 }
